@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: local('Proxima Nova Thin'), local('Proxima-Nova-Thin'),
+        url('font/ProximaNovaT-Thin.woff2') format('woff2'),
+        url('font/ProximaNovaT-Thin.woff') format('woff'),
+        url('font/ProximaNovaT-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+body{
+    background-color: #FDDE7E;
+    box-sizing: border-box;
+    height: 100vh; /*vh - розтягує висоту блока на висоту екрана*/
+    margin: 0;
+}
+.main_block{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:280px;
+    height: 430px;
+    margin: 5% 5%;
+}
+.cup{
+    display: contents;
+
+}
+.cup img{
+    width: 140px;
+    height: 140px;
+}
+svg{
+    position: absolute;
+    opacity: 0.10196078431372549;
+    margin: 0 -12px;
+}
+
+img{
+    width: 53px;
+    height: 52px;
+}
+.price{
+    width: 91px;
+    height: 53px;
+}
+p.text{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+p {
+    font-family: Proxima Nova;
+    color:#333333;
+    font-size:20px;
+    text-align:center;
+    width: 160px;
+}
+.block:hover{
+    width:320px;
+    height: 470px;
+}
